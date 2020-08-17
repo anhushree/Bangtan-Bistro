@@ -60,11 +60,11 @@ font-family: 'Pathway Gothic One', sans-serif;
 float: right;
 }*/
 
-.container img {
+/*.container img {
     width:50%;
     height:20%;
 
-}
+}*/
 
 
 .bg-custom-1 {
@@ -121,7 +121,7 @@ li.nav-item {
     width: 100%;
     margin-bottom: 15px;
     position: relative;
-    border: 2px solid #000000;
+    border: 2px solid #424242;
     overflow:hidden;
 }
 #menu-tile:hover, #specials-tile:hover, #map-tile:hover{
@@ -245,4 +245,40 @@ font-style: italic;
 .panel-footer section hr{
     width: 50%;
 
+}
+
+#rice{
+    padding-bottom: 30px;
+}
+
+.category-tile{
+    position: relative;
+    border: 2px solid #424242;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto 15px;
+}
+
+.category-tile span{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width:  100%;
+    text-align: center;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    opacity: .8;
+
+}
+
+
+.category-tile:hover{
+    box-shadow: 0 2.5px 5px 2.5px #CE93D8;
+}
+
+#menu-categories-tile{
+padding-top: 10px;
 }
